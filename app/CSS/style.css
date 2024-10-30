@@ -5,11 +5,33 @@ html, body, *{
   font-size: 10px;
 }
 :root{
-
+  --blackbutnotblack: #020005;
+  --dark-yellow: #c4b279;
+  --darkpastelred: #bc745f
 }
 .dark{
-  --primary:
+  --primary: var(--blackbutnotblack);
+  --secondary: var(--dark-yellow);
+  --accent: var(--darkpastelred);
+
+  --background-color: var(--primary);
+  --heading-font-color: var(--secondary);
+  --text-font-color: var(--accent);
+  --h1-size: 5rem;
+  --h2-size: 3rem
 }
 .light{
   
+}
+body {
+  background-color: var(--background-color);
+  text-align: center;
+}
+h1 {
+  color: var(--heading-font-color);
+  font-size: var(--h1-size);
+}
+h2 {
+  color: var(--text-font-color);
+  font-size: var(--h2-size);
 }
