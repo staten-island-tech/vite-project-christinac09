@@ -1,5 +1,5 @@
 html, body, *{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-size: 10px;
@@ -7,23 +7,38 @@ html, body, *{
 :root{
   --blackbutnotblack: #020005;
   --dark-yellow: #c4b279;
-  --darkpastelred: #bc745f
+  --darkpastelred: #bc745f;
+  --warmwhite: #fffaed;
+  --brown: #5b524a;
+  --beige: #e2b58b;
+  --dark-gray: #313946;
+  --coolwhite: #fffdfe;
+  --teal: #64b4a8;
+
+  --h1-size: 5rem;
+  --h2-size: 3rem;
 }
-.dark{
+.dark-warm{
   --primary: var(--blackbutnotblack);
   --secondary: var(--dark-yellow);
   --accent: var(--darkpastelred);
+}
+.light-warm{
+  --primary: var(--warmwhite);
+  --secondary: var(--brown);
+  --accent: var(--beige);
+}
+.light-cool {
 
+}
+.dark-cool {
+  --primary: var(--dark-gray);
+  --secondary:
+}
+body {
   --background-color: var(--primary);
   --heading-font-color: var(--secondary);
   --text-font-color: var(--accent);
-  --h1-size: 5rem;
-  --h2-size: 3rem
-}
-.light{
-  
-}
-body {
   background-color: var(--background-color);
   text-align: center;
 }
@@ -34,4 +49,23 @@ h1 {
 h2 {
   color: var(--text-font-color);
   font-size: var(--h2-size);
+}
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+}
+.card {
+  border: 2px solid var(--accent);
+  height: 30rem;
+  width: 30rem;
+}
+.card-img {
+  height: 60%;
+  object-fit: cover;
 }
