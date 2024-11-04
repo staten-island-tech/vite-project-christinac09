@@ -7,7 +7,7 @@ const movies = [
     actors: ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
     altText:
       "A man discovers the truth about his reality and fights a powerful system.",
-    imgUrl: "",
+    imgUrl: "../img/black.png",
   },
   {
     name: "Inception",
@@ -164,3 +164,5 @@ const movies = [
     imgUrl: "",
   },
 ];
+
+export { movies };
