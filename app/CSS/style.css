@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho');
+
 html, body, *{
   margin: 0 auto;
   padding: 0;
@@ -18,20 +20,20 @@ html, body, *{
   --h1-size: 5rem;
   --h2-size: 3rem;
 }
-.dark-warm{
+.warm{
   --primary: var(--blackbutnotblack);
   --secondary: var(--dark-yellow);
   --accent: var(--darkpastelred);
 }
-.light-warm{
+/* .light-warm{
   --primary: var(--warmwhite);
   --secondary: var(--brown);
   --accent: var(--beige);
 }
 .light-cool {
 
-}
-.dark-cool {
+} */
+.cool {
   --primary: var(--dark-gray);
   --secondary: var(--coolwhite);
   --accent: var(--teal);
@@ -51,6 +53,11 @@ h2 {
   color: var(--text-font-color);
   font-size: var(--h2-size);
 }
+h3, h4 {
+  color: var(--secondary);
+  font-family: "Rancho", cursive;
+  font-size: 2rem;
+}
 .container {
   padding: 5rem;
   display: flex;
@@ -65,6 +72,7 @@ h2 {
   margin: 2rem auto;
   padding: 2rem;
   border: 2px solid var(--accent);
+  border-radius: 10px;
   height: 30rem;
   width: 21%;
 }

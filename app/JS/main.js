@@ -3,7 +3,8 @@ import { movies } from "./movies.js";
 const DOMSelectors = {
   container: document.querySelector(".container"),
   buttons: document.querySelectorAll("button"),
-  darkButton: document.querySelector("#darkwarm-btn"),
+  warmButton: document.getElementById("warm-btn"),
+  coolButton: document.getElementById("cool-btn"),
 };
 function addMovies(movies) {
   movies.forEach((movie) =>
@@ -12,15 +13,19 @@ function addMovies(movies) {
       `<div class="card">
   <h3>${movie.name}</h3>
   <h4>${movie.releaseDate}</h4>
-  <img class="${movie.imgUrl}" src="" alt="">
+  <img class="card-img" src="${movie.imgUrl}" alt="">
 </div>`
     )
   );
 }
 function addTheme() {
-  DOMSelectors.darkButton.addEventListener("click", function (event) {
+  DOMSelectors.warmButton.addEventListener("click", function (event) {
     event.preventDefault();
-    document.body.classList.add("dark-warm");
+    document.body.classList.replace("cool", "warm"); // replace combines remove and add
+  });
+  DOMSelectors.coolButton.addEventListener("click", function (event) {
+    event.preventDefault();
+    document.body.classList.replace("warm", "cool");
   });
 }
 addMovies(movies);

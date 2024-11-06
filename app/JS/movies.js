@@ -7,7 +7,7 @@ const movies = [
     actors: ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
     altText:
       "A man discovers the truth about his reality and fights a powerful system.",
-    imgUrl: "../img/black.png",
+    imgUrl: "../img/matrix.jpg",
   },
   {
     name: "Inception",
@@ -16,7 +16,7 @@ const movies = [
     actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
     altText:
       "A skilled thief enters dreams to steal secrets but takes on a risky heist.",
-    imgUrl: "",
+    imgUrl: "../img/inception.jpg",
   },
   {
     name: "The Dark Knight",
@@ -24,7 +24,7 @@ const movies = [
     genre: "Action",
     actors: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     altText: "Batman battles the Joker to protect Gotham City.",
-    imgUrl: "",
+    imgUrl: "../img/dark knight.jpg",
   },
   {
     name: "Forrest Gump",
@@ -32,7 +32,7 @@ const movies = [
     genre: "Drama",
     actors: ["Tom Hanks", "Robin Wright", "Gary Sinise"],
     altText: "The story of a simple man's journey through history and love.",
-    imgUrl: "",
+    imgUrl: "../img/forrest gump.jpg",
   },
   {
     name: "Pulp Fiction",
@@ -40,7 +40,7 @@ const movies = [
     genre: "Crime",
     actors: ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
     altText: "Interwoven stories of crime in Los Angeles.",
-    imgUrl: "",
+    imgUrl: "../img/pulp fiction.jpg",
   },
   {
     name: "Fight Club",
@@ -48,7 +48,7 @@ const movies = [
     genre: "Drama",
     actors: ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
     altText: "A disillusioned man starts an underground fight club.",
-    imgUrl: "",
+    imgUrl: "../img/fight club.jpg",
   },
   {
     name: "The Godfather",
@@ -56,7 +56,7 @@ const movies = [
     genre: "Crime",
     actors: ["Marlon Brando", "Al Pacino", "James Caan"],
     altText: "A mafia family patriarch balances crime and family loyalty.",
-    imgUrl: "",
+    imgUrl: "../img/godfather.jpg",
   },
   {
     name: "Schindler's List",
@@ -64,7 +64,7 @@ const movies = [
     genre: "Historical",
     actors: ["Liam Neeson", "Ben Kingsley", "Ralph Fiennes"],
     altText: "A businessman saves Jewish lives during the Holocaust.",
-    imgUrl: "",
+    imgUrl: "../img/schindler.jpg",
   },
   {
     name: "The Shawshank Redemption",
