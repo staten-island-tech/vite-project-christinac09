@@ -21,12 +21,15 @@ function addMovies(movies) {
 function addTheme() {
   DOMSelectors.warmButton.addEventListener("click", function (event) {
     event.preventDefault();
-    document.body.classList.replace("cool", "warm"); // replace combines remove and add
+    //document.body.classList.replace("cool", "warm"); // replace combines remove and add
+    document.body.className = "warm";
   });
   DOMSelectors.coolButton.addEventListener("click", function (event) {
     event.preventDefault();
-    document.body.classList.replace("warm", "cool");
+    document.body.className = "cool";
+    //document.body.classList.replace("warm", "cool");
   });
 }
+
 addMovies(movies);
 addTheme();
