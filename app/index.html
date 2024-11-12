@@ -18,9 +18,9 @@
     <h2>Filter by:</h2>
     <div class="filters-container">
       <button class="filter-btn" id="reset-filter">Show All</button>
-      <div class="genre-filter-dropdown">
+      <div class="filter-dropdown">
         <button class="filter-btn" id="genre-filter">Genre</button>
-        <div class="genre-filter-dropdowncontent">
+        <div class="filter-dropdowncontent">
           <button class="genre-option" id="pop-filter">Pop</button>
           <button class="genre-option" id="kpop-filter">K-pop</button>
           <button class="genre-option" id="krnb-filter">K-RnB</button>
@@ -28,8 +28,14 @@
           <button class="genre-option" id="other-filter">Other</button>
         </div>
       </div>
-      
-      <button class="filter-btn" id="release-filter">Release Date</button>
+      <div class="filter-dropdown">
+        <button class="filter-btn" id="release-filter">Release Date</button>
+        <div class="filter-dropdowncontent">
+          <button class="release-option" id="2010-filter">2010-2015</button>
+          <button class="release-option" id="2016-filter">2016-2020</button>
+          <button class="release-option" id="2021-filter">2021-Present</button>
+        </div>
+      </div>
     </div>
     <div class="container">
       <!-- `<div class="card">

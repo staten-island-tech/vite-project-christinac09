@@ -7,8 +7,7 @@ const DOMSelectors = {
 
     showAllButton: document.getElementById("reset-filter"),
     genreOptionButtons: document.querySelectorAll(".genre-option"),
-    popFilterBtn: document.getElementById("pop-filter"),
-    kpopFilterBtn: document.getElementById("kpop-filter"),
+    releaseOptionButtons: document.querySelectorAll(".release-option"),
   };
 
 export {DOMSelectors}

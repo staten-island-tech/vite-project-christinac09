@@ -20,7 +20,7 @@ function removeAllCards() {
   DOMSelectors.container.replaceChildren(); //removes all children
 }
 
-function getFiltered(type) {
+function getFilteredGenre(type) {
   let filtered;
   let acceptedTypes = ["Pop", "K-pop", "KRnB", "Hip Hop"]
   removeAllCards();
@@ -40,21 +40,39 @@ function getFiltered(type) {
   return filtered
 }
 
+function getFilteredRelease(type) {
+  let filtered;
+  removeAllCards();
+  if (type === "2010-2015") {
+    filtered = songs.filter((song) => song.releaseYear <= 2015)
+  } else if (type === "2016-2020") {
+    filtered = songs.filter((song)=> song.releaseYear>=2016 && song.releaseYear<=2020)
+  } else {
+    filtered = songs.filter((song)=>song.releaseYear >=2021)
+  }
+  return filtered
+}
+
 function filterButtons() {
   let type, filtered;
   DOMSelectors.showAllButton.addEventListener("click", function(event) {
     event.preventDefault;
-    filtered = getFiltered("reset")
+    filtered = getFilteredGenre("reset")
     addSongCards(filtered)
   })
   DOMSelectors.genreOptionButtons.forEach((genreOption)=>genreOption.addEventListener("click", function(event) {
     event.preventDefault;
     type = genreOption.innerHTML
-    console.log(type)
-    filtered = getFiltered(type)
+    filtered = getFilteredGenre(type)
     addSongCards(filtered)
   }))
-
+  DOMSelectors.releaseOptionButtons.forEach((releaseOption)=>releaseOption.addEventListener("click", function(event) {
+    event.preventDefault;
+    type = releaseOption.innerHTML
+    filtered = getFilteredRelease(type)
+    console.log(filtered)
+    addSongCards(filtered)
+  }))
 }
 
 export {addSongCards, filterButtons}

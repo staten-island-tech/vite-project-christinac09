@@ -111,7 +111,7 @@ p {
   height: 5rem;
   width: 50rem;
 }
-button, .genre-filter-dropdown {
+button, .filter-dropdown {
   font-size: var(--p-size);
   font-family: "Slabo 27px", serif;
   border-style: outset;
@@ -130,18 +130,18 @@ button:hover {
 button:active {
   transform: scale(0.95);
 }
-#genre-filter {
+#genre-filter, #release-filter {
   width: 100%;
 }
-.genre-filter-dropdowncontent {
+.filter-dropdowncontent {
   display: none;
   position: absolute;
 
 }
-.genre-option {
+.genre-option, .release-option {
   width: 100%;
 }
-.genre-filter-dropdown:hover .genre-filter-dropdowncontent {
+.filter-dropdown:hover .filter-dropdowncontent {
   display: block;
 }
 
