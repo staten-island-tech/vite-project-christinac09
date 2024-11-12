@@ -6,7 +6,7 @@ const songs = [
     releaseDate: "2017-01-06",
     releaseYear: 2017,
     price: 1.29,
-    imageUrl: "../public/shape of you.png",
+    imageUrl: "../shape of you.png",
     altText:
       "Album cover for 'Shape of You' by Ed Sheeran featuring a blue background with black paint splotches.",
   },
@@ -17,7 +17,7 @@ const songs = [
     releaseDate: "2019-03-29",
     releaseYear: 2019,
     price: 1.29,
-    imageUrl: "../public/bad guy.jpg",
+    imageUrl: "../bad guy.jpg",
     altText:
       "Album cover for 'Bad Guy' by Billie Eilish with the artist in white clothing against a dark background.",
   },
@@ -28,7 +28,7 @@ const songs = [
     releaseDate: "2019-11-29",
     releaseYear: 2019,
     price: 1.29,
-    imageUrl: "../public/blinding lights.png",
+    imageUrl: "../blinding lights.png",
     altText:
       "Album cover for 'Blinding Lights' by The Weeknd showing a close-up of the artist's face with a red background.",
   },
@@ -39,7 +39,7 @@ const songs = [
     releaseDate: "2016-07-29",
     releaseYear: 2016,
     price: 1.29,
-    imageUrl: "../public/closer.jpg",
+    imageUrl: "../closer.jpg",
     altText:
       "Album cover for 'Closer' by The Chainsmokers featuring a soft pastel background with minimal design.",
   },
@@ -50,7 +50,7 @@ const songs = [
     releaseDate: "2010-11-29",
     releaseYear: 2010,
     price: 1.29,
-    imageUrl: "../public/rolling in the deep.png",
+    imageUrl: "../rolling in the deep.png",
     altText:
       "Album cover for 'Rolling in the Deep' by Adele with a monochrome portrait of the artist.",
   },
@@ -61,7 +61,7 @@ const songs = [
     releaseDate: "2017-03-30",
     releaseYear: 2017,
     price: 1.29,
-    imageUrl: "../public/humble.jpg",
+    imageUrl: "../humble.jpg",
     altText:
       "Album cover for 'Humble' by Kendrick Lamar showing a bold red and black design.",
   },
@@ -72,7 +72,7 @@ const songs = [
     releaseDate: "2018-11-08",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../public/someone you loved.jpg",
+    imageUrl: "../someone you loved.jpg",
     altText:
       "Album cover for 'Someone You Loved' by Lewis Capaldi featuring a portrait of the artist on a red background.",
   },
@@ -83,7 +83,7 @@ const songs = [
     releaseDate: "2018-10-19",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../public/sunflower.jpg",
+    imageUrl: "../sunflower.jpg",
     altText: "Album cover for 'Sunflower' featuring masked eyes.",
   },
   {
@@ -93,7 +93,7 @@ const songs = [
     releaseDate: "2022-05-27",
     releaseYear: 2022,
     price: 1.29,
-    imageUrl: "../public/hot.jpg",
+    imageUrl: "../hot.jpg",
     altText:
       "Album cover for 'HOT' by SEVENTEEN featuring a desert-themed concept with the group in stylish outfits.",
   },
@@ -104,7 +104,7 @@ const songs = [
     releaseDate: "2022-08-01",
     releaseYear: 2022,
     price: 1.29,
-    imageUrl: "../public/hype boy.jpg",
+    imageUrl: "../hype boy.jpg",
     altText:
       "Album cover for 'Hype Boy' by NewJeans featuring a retro, Y2K-inspired aesthetic with a bunny on a blue background.",
   },
@@ -115,7 +115,7 @@ const songs = [
     releaseDate: "2018-12-13",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../public/love shot.jpg",
+    imageUrl: "../love shot.jpg",
     altText:
       "Album cover for 'Love Shot' by EXO, showing members in sleek red and black outfits with a rose.",
   },
@@ -126,7 +126,7 @@ const songs = [
     releaseDate: "2020-01-13",
     releaseYear: 2020,
     price: 1.29,
-    imageUrl: "../public/any song.png",
+    imageUrl: "../any song.png",
     altText:
       "Album cover for 'Any Song' by Zico, showcasing a colorful, fun design with the artist's playful expressions.",
   },
@@ -137,7 +137,7 @@ const songs = [
     releaseDate: "2020-05-06",
     releaseYear: 2020,
     price: 1.29,
-    imageUrl: "../public/eight.jpg",
+    imageUrl: "../eight.jpg",
     altText:
       "Album cover for 'Eight' by IU featuring a dreamy, cloud-themed design with soft colors.",
   },
@@ -148,7 +148,7 @@ const songs = [
     releaseDate: "2018-04-09",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../public/what is love.jpg",
+    imageUrl: "../what is love.jpg",
     altText:
       "Album cover for 'What is Love?' by TWICE, featuring a colorful design with members in a question mark.",
   },
@@ -159,7 +159,7 @@ const songs = [
     releaseDate: "2021-10-22",
     releaseYear: 2021,
     price: 1.29,
-    imageUrl: "../public/rock with you.jpg",
+    imageUrl: "../rock with you.jpg",
     altText:
       "Album cover for 'Rock With You' by SEVENTEEN, featuring an edgy, rock-inspired theme with dark tones.",
   },
@@ -170,7 +170,7 @@ const songs = [
     releaseDate: "2016-07-17",
     releaseYear: 2016,
     price: 1.29,
-    imageUrl: "../public/all i wanna do.jpg",
+    imageUrl: "../all i wanna do.jpg",
     altText:
       "Album cover for 'All I Wanna Do' by Jay Park showing the back of a person's neck with tattoos.",
   },
@@ -181,7 +181,7 @@ const songs = [
     releaseDate: "2012-09-01",
     releaseYear: 2012,
     price: 1.29,
-    imageUrl: "../public/that xx.jpg",
+    imageUrl: "../that xx.jpg",
     altText:
       "Album cover for 'That XX' by G-Dragon featuring a dark and moody theme.",
   },
@@ -192,7 +192,7 @@ const songs = [
     releaseDate: "2017-12-26",
     releaseYear: 2017,
     price: 1.29,
-    imageUrl: "../public/instagram.jpg",
+    imageUrl: "../instagram.jpg",
     altText:
       "Album cover for 'Instagram' by DEAN, showing a person holding a guitar with muted colors.",
   },
@@ -203,7 +203,7 @@ const songs = [
     releaseDate: "2018-10-22",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../public/blue.png",
+    imageUrl: "../blue.png",
     altText:
       "Album cover for 'Blue' by BOL4 featuring a soft pastel sky theme with blue tones.",
   },
@@ -214,7 +214,7 @@ const songs = [
     releaseDate: "2020-05-22",
     releaseYear: 2020,
     price: 1.29,
-    imageUrl: "../public/daechwita.jpg",
+    imageUrl: "../daechwita.jpg",
     altText:
       "Album cover for 'Daechwita' by Agust D showing a black and white image of the artist's side profile from a low angle.",
   },
