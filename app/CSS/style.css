@@ -90,14 +90,14 @@ p {
   border: 3px solid var(--accent);
   border-radius: 15px;
   height: 46rem;
-  width: 30%;
+  width: 27%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .card-img {
   height: 65%;
-  width: 78%;
+  width: 75%;
   object-fit: cover;
   border-radius: 15px;
   margin: 1rem auto;
@@ -109,14 +109,14 @@ p {
   display: flex;
   flex-direction: row;
   height: 5rem;
-  width: 50rem;
+  width: 60rem;
 }
 button, .filter-dropdown {
   font-size: var(--p-size);
   font-family: "Slabo 27px", serif;
   border-style: outset;
   transition: 0.2s;
-  width: 30%;
+  width: 24%;
   height: 100%;
   background-color: var(--accent);
   border: 1px solid;
