@@ -6,8 +6,9 @@ const songs = [
     releaseDate: "2017-01-06",
     releaseYear: 2017,
     price: 1.29,
-    imageUrl: "../img/shape of you.png",
-    altText: "Album cover for 'Shape of You' by Ed Sheeran featuring a blue background with black paint splotches."
+    imageUrl: "../public/shape of you.png",
+    altText:
+      "Album cover for 'Shape of You' by Ed Sheeran featuring a blue background with black paint splotches.",
   },
   {
     title: "Bad Guy",
@@ -16,8 +17,9 @@ const songs = [
     releaseDate: "2019-03-29",
     releaseYear: 2019,
     price: 1.29,
-    imageUrl: "../img/bad guy.jpg",
-    altText: "Album cover for 'Bad Guy' by Billie Eilish with the artist in white clothing against a dark background."
+    imageUrl: "../public/bad guy.jpg",
+    altText:
+      "Album cover for 'Bad Guy' by Billie Eilish with the artist in white clothing against a dark background.",
   },
   {
     title: "Blinding Lights",
@@ -26,8 +28,9 @@ const songs = [
     releaseDate: "2019-11-29",
     releaseYear: 2019,
     price: 1.29,
-    imageUrl: "../img/blinding lights.png",
-    altText: "Album cover for 'Blinding Lights' by The Weeknd showing a close-up of the artist's face with a red background."
+    imageUrl: "../public/blinding lights.png",
+    altText:
+      "Album cover for 'Blinding Lights' by The Weeknd showing a close-up of the artist's face with a red background.",
   },
   {
     title: "Closer",
@@ -36,8 +39,9 @@ const songs = [
     releaseDate: "2016-07-29",
     releaseYear: 2016,
     price: 1.29,
-    imageUrl: "../img/closer.jpg",
-    altText: "Album cover for 'Closer' by The Chainsmokers featuring a soft pastel background with minimal design."
+    imageUrl: "../public/closer.jpg",
+    altText:
+      "Album cover for 'Closer' by The Chainsmokers featuring a soft pastel background with minimal design.",
   },
   {
     title: "Rolling in the Deep",
@@ -46,8 +50,9 @@ const songs = [
     releaseDate: "2010-11-29",
     releaseYear: 2010,
     price: 1.29,
-    imageUrl: "../img/rolling in the deep.png",
-    altText: "Album cover for 'Rolling in the Deep' by Adele with a monochrome portrait of the artist."
+    imageUrl: "../public/rolling in the deep.png",
+    altText:
+      "Album cover for 'Rolling in the Deep' by Adele with a monochrome portrait of the artist.",
   },
   {
     title: "Humble",
@@ -56,8 +61,9 @@ const songs = [
     releaseDate: "2017-03-30",
     releaseYear: 2017,
     price: 1.29,
-    imageUrl: "../img/humble.jpg",
-    altText: "Album cover for 'Humble' by Kendrick Lamar showing a bold red and black design."
+    imageUrl: "../public/humble.jpg",
+    altText:
+      "Album cover for 'Humble' by Kendrick Lamar showing a bold red and black design.",
   },
   {
     title: "Someone You Loved",
@@ -66,8 +72,9 @@ const songs = [
     releaseDate: "2018-11-08",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../img/someone you loved.jpg",
-    altText: "Album cover for 'Someone You Loved' by Lewis Capaldi featuring a portrait of the artist on a red background."
+    imageUrl: "../public/someone you loved.jpg",
+    altText:
+      "Album cover for 'Someone You Loved' by Lewis Capaldi featuring a portrait of the artist on a red background.",
   },
   {
     title: "Sunflower",
@@ -76,8 +83,8 @@ const songs = [
     releaseDate: "2018-10-19",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../img/sunflower.jpg",
-    altText: "Album cover for 'Sunflower' featuring masked eyes."
+    imageUrl: "../public/sunflower.jpg",
+    altText: "Album cover for 'Sunflower' featuring masked eyes.",
   },
   {
     title: "HOT",
@@ -86,8 +93,9 @@ const songs = [
     releaseDate: "2022-05-27",
     releaseYear: 2022,
     price: 1.29,
-    imageUrl: "../img/hot.jpg",
-    altText: "Album cover for 'HOT' by SEVENTEEN featuring a desert-themed concept with the group in stylish outfits."
+    imageUrl: "../public/hot.jpg",
+    altText:
+      "Album cover for 'HOT' by SEVENTEEN featuring a desert-themed concept with the group in stylish outfits.",
   },
   {
     title: "Hype Boy",
@@ -96,8 +104,9 @@ const songs = [
     releaseDate: "2022-08-01",
     releaseYear: 2022,
     price: 1.29,
-    imageUrl: "../img/hype boy.jpg",
-    altText: "Album cover for 'Hype Boy' by NewJeans featuring a retro, Y2K-inspired aesthetic with a bunny on a blue background."
+    imageUrl: "../public/hype boy.jpg",
+    altText:
+      "Album cover for 'Hype Boy' by NewJeans featuring a retro, Y2K-inspired aesthetic with a bunny on a blue background.",
   },
   {
     title: "Love Shot",
@@ -106,8 +115,9 @@ const songs = [
     releaseDate: "2018-12-13",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../img/love shot.jpg",
-    altText: "Album cover for 'Love Shot' by EXO, showing members in sleek red and black outfits with a rose."
+    imageUrl: "../public/love shot.jpg",
+    altText:
+      "Album cover for 'Love Shot' by EXO, showing members in sleek red and black outfits with a rose.",
   },
   {
     title: "Any Song",
@@ -116,8 +126,9 @@ const songs = [
     releaseDate: "2020-01-13",
     releaseYear: 2020,
     price: 1.29,
-    imageUrl: "../img/any song.png",
-    altText: "Album cover for 'Any Song' by Zico, showcasing a colorful, fun design with the artist's playful expressions."
+    imageUrl: "../public/any song.png",
+    altText:
+      "Album cover for 'Any Song' by Zico, showcasing a colorful, fun design with the artist's playful expressions.",
   },
   {
     title: "Eight",
@@ -126,8 +137,9 @@ const songs = [
     releaseDate: "2020-05-06",
     releaseYear: 2020,
     price: 1.29,
-    imageUrl: "../img/eight.jpg",
-    altText: "Album cover for 'Eight' by IU featuring a dreamy, cloud-themed design with soft colors."
+    imageUrl: "../public/eight.jpg",
+    altText:
+      "Album cover for 'Eight' by IU featuring a dreamy, cloud-themed design with soft colors.",
   },
   {
     title: "What is Love?",
@@ -136,8 +148,9 @@ const songs = [
     releaseDate: "2018-04-09",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../img/what is love.jpg",
-    altText: "Album cover for 'What is Love?' by TWICE, featuring a colorful design with members in a question mark."
+    imageUrl: "../public/what is love.jpg",
+    altText:
+      "Album cover for 'What is Love?' by TWICE, featuring a colorful design with members in a question mark.",
   },
   {
     title: "Rock With You",
@@ -146,8 +159,9 @@ const songs = [
     releaseDate: "2021-10-22",
     releaseYear: 2021,
     price: 1.29,
-    imageUrl: "../img/rock with you.jpg",
-    altText: "Album cover for 'Rock With You' by SEVENTEEN, featuring an edgy, rock-inspired theme with dark tones."
+    imageUrl: "../public/rock with you.jpg",
+    altText:
+      "Album cover for 'Rock With You' by SEVENTEEN, featuring an edgy, rock-inspired theme with dark tones.",
   },
   {
     title: "All I Wanna Do",
@@ -156,8 +170,9 @@ const songs = [
     releaseDate: "2016-07-17",
     releaseYear: 2016,
     price: 1.29,
-    imageUrl: "../img/all i wanna do.jpg",
-    altText: "Album cover for 'All I Wanna Do' by Jay Park showing the back of a person's neck with tattoos."
+    imageUrl: "../public/all i wanna do.jpg",
+    altText:
+      "Album cover for 'All I Wanna Do' by Jay Park showing the back of a person's neck with tattoos.",
   },
   {
     title: "That XX",
@@ -166,8 +181,9 @@ const songs = [
     releaseDate: "2012-09-01",
     releaseYear: 2012,
     price: 1.29,
-    imageUrl: "../img/that xx.jpg",
-    altText: "Album cover for 'That XX' by G-Dragon featuring a dark and moody theme."
+    imageUrl: "../public/that xx.jpg",
+    altText:
+      "Album cover for 'That XX' by G-Dragon featuring a dark and moody theme.",
   },
   {
     title: "Instagram",
@@ -176,8 +192,9 @@ const songs = [
     releaseDate: "2017-12-26",
     releaseYear: 2017,
     price: 1.29,
-    imageUrl: "../img/instagram.jpg",
-    altText: "Album cover for 'Instagram' by DEAN, showing a person holding a guitar with muted colors."
+    imageUrl: "../public/instagram.jpg",
+    altText:
+      "Album cover for 'Instagram' by DEAN, showing a person holding a guitar with muted colors.",
   },
   {
     title: "Blue",
@@ -186,8 +203,9 @@ const songs = [
     releaseDate: "2018-10-22",
     releaseYear: 2018,
     price: 1.29,
-    imageUrl: "../img/blue.png",
-    altText: "Album cover for 'Blue' by BOL4 featuring a soft pastel sky theme with blue tones."
+    imageUrl: "../public/blue.png",
+    altText:
+      "Album cover for 'Blue' by BOL4 featuring a soft pastel sky theme with blue tones.",
   },
   {
     title: "Daechwita",
@@ -196,10 +214,10 @@ const songs = [
     releaseDate: "2020-05-22",
     releaseYear: 2020,
     price: 1.29,
-    imageUrl: "../img/daechwita.jpg",
-    altText: "Album cover for 'Daechwita' by Agust D showing a black and white image of the artist's side profile from a low angle."
-  }
+    imageUrl: "../public/daechwita.jpg",
+    altText:
+      "Album cover for 'Daechwita' by Agust D showing a black and white image of the artist's side profile from a low angle.",
+  },
 ];
 
-  
-export {songs}
+export { songs };
