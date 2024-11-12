@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rancho');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Englebert&family=Titan+One&display=swap');
 
 html, body, *{
   margin: 0 auto;
@@ -19,20 +19,20 @@ html, body, *{
 
   --h1-size: 5rem;
   --h2-size: 3rem;
+  --h3-size: 3rem;
+  --h4-size: 2.8rem;
+  --p-size: 2.4rem;
 }
 .warm{
   --primary: var(--blackbutnotblack);
   --secondary: var(--dark-yellow);
   --accent: var(--darkpastelred);
 }
-/* .light-warm{
+.light-warm{
   --primary: var(--warmwhite);
   --secondary: var(--brown);
   --accent: var(--beige);
 }
-.light-cool {
-
-} */
 .cool {
   --primary: var(--dark-gray);
   --secondary: var(--coolwhite);
@@ -46,17 +46,33 @@ body {
   text-align: center;
 }
 h1 {
+  margin: 2rem auto;
   color: var(--heading-font-color);
   font-size: var(--h1-size);
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
 }
 h2 {
   color: var(--text-font-color);
   font-size: var(--h2-size);
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
 }
-h3, h4 {
+h3, h4, h5 {
   color: var(--secondary);
-  font-family: "Rancho", cursive;
-  font-size: 2rem;
+  font-family: "Englebert", cursive;
+}
+h3 {
+  font-size: var(--h3-size);
+}
+h4, h5 {
+  font-size: var(--h4-size);
+}
+p {
+  color: var(--text-font-color);
+  font-family: "Slabo 27px", serif;
+  font-size: var(--p-size);
+
 }
 .container {
   padding: 5rem;
@@ -70,13 +86,84 @@ h3, h4 {
 }
 .card {
   margin: 2rem auto;
-  padding: 2rem;
-  border: 2px solid var(--accent);
-  border-radius: 10px;
-  height: 35rem;
-  width: 21%;
+  padding: 1.2rem;
+  border: 3px solid var(--accent);
+  border-radius: 15px;
+  height: 46rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .card-img {
-  height: 80%;
+  height: 65%;
+  width: 78%;
   object-fit: cover;
+  border-radius: 15px;
+  margin: 1rem auto;
+}
+.buttons-container, 
+.filters-container
+{
+  margin: 1.7rem auto;
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 50rem;
+}
+button, .genre-filter-dropdown {
+  font-size: var(--p-size);
+  font-family: "Slabo 27px", serif;
+  border-style: outset;
+  transition: 0.2s;
+  width: 30%;
+  height: 100%;
+  background-color: var(--accent);
+  border: 1px solid;
+  border-radius: 15px;
+  transition: all 0.2s;
+}
+button:hover {
+  background-color: var(--secondary);
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
+#genre-filter {
+  width: 100%;
+}
+.genre-filter-dropdowncontent {
+  display: none;
+  position: absolute;
+
+}
+.genre-option {
+  width: 100%;
+}
+.genre-filter-dropdown:hover .genre-filter-dropdowncontent {
+  display: block;
+}
+
+@media screen and (max-width: 1300px) {
+  .card {
+      width: 45%;
+  }
+}
+@media screen and (max-width: 750px){
+  .card {
+      width: 100%;
+  }
+  .container {
+      flex-direction: column;
+      padding: 6rem;
+  }
+  .buttons-container,
+  .filters-container
+  {
+    flex-direction: column;
+  }
+  button {
+    width: 50%;
+  }
 }

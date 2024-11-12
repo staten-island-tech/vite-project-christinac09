@@ -7,23 +7,38 @@
     <title>Vite App</title>
   </head>
   <body class="warm">
-    <h1>Test</h1>
+    <h1>Song Finder</h1>
     <h2>Themes</h2>
     <div class="buttons-container">
-      <button id="cool-btn">cool</button>
-      <button id="warm-btn">warm</button>
+      <button class="theme-btn" id="cool-btn">Cool</button>
+      <button class="theme-btn" id="warm-btn">Warm</button>
+      <button class="theme-btn" id="lightwarm-btn">Light Warm</button>
     </div>
+    
     <h2>Filter by:</h2>
     <div class="filters-container">
-      <button id="genre-filter">genre</button>
-      <button id="release-filter">release date</button>
+      <button class="filter-btn" id="reset-filter">Show All</button>
+      <div class="genre-filter-dropdown">
+        <button class="filter-btn" id="genre-filter">Genre</button>
+        <div class="genre-filter-dropdowncontent">
+          <button class="genre-option" id="pop-filter">Pop</button>
+          <button class="genre-option" id="kpop-filter">K-pop</button>
+          <button class="genre-option" id="krnb-filter">K-RnB</button>
+          <button class="genre-option" id="hiphop-filter">Hip Hop</button>
+          <button class="genre-option" id="other-filter">Other</button>
+        </div>
+      </div>
+      
+      <button class="filter-btn" id="release-filter">Release Date</button>
     </div>
     <div class="container">
-      <!-- <div class="card">
-        <h3>card title</h3>
-        <h4>card info</h4>
-        <img class="card-img" src="img/hp movie poster.jpg" alt="placeholder hp movie poster">
-      </div> -->
+      <!-- `<div class="card">
+        <h3 class="card-title">title</h3>
+        <h4 class="card-artist">artist</h4>
+        <p class="card-info">genre\nrelease date</p>
+        <img class="card-img" src="../img/black.png" alt="">
+        <h5 class="card-price"></h5>
+      </div>` -->
     </div>
     <div id="app"></div>
     <script type="module" src="JS/main.js"></script>
