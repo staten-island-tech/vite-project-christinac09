@@ -6,8 +6,8 @@ const DOMSelectors = {
   lightWarmButton: document.getElementById("lightwarm-btn"),
 
   showAllButton: document.getElementById("reset-filter"),
-  alphabeticalButton: document.getElementById("alphabetical-filter"),
-  genreOptionButtons: document.querySelectorAll(".genre-option"),
+/*   alphabeticalButton: document.getElementById("alphabetical-filter"),
+ */  genreOptionButtons: document.querySelectorAll(".genre-option"),
   releaseOptionButtons: document.querySelectorAll(".release-option"),
 };
 

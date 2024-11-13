@@ -122,7 +122,7 @@ const songs = [
   {
     title: "Any Song",
     artist: "Zico",
-    genre: "K-pop/Hip Hop",
+    genre: "K-pop",
     releaseDate: "2020-01-13",
     releaseYear: 2020,
     price: 1.29,
@@ -210,7 +210,7 @@ const songs = [
   {
     title: "Daechwita",
     artist: "Agust D (SUGA from BTS)",
-    genre: "K-pop/Hip Hop",
+    genre: "K-pop",
     releaseDate: "2020-05-22",
     releaseYear: 2020,
     price: 1.29,

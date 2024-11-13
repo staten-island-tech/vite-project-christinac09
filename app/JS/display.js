@@ -20,12 +20,13 @@ function removeAllCards() {
   DOMSelectors.container.replaceChildren(); //removes all children
 }
 
-function getFilteredABC() {
+/* function getFilteredABC() {
   let filtered;
   removeAllCards();
   filtered = songs.sort();
+  console.log(filtered)
   return filtered;
-}
+} */
 
 function getFilteredGenre(type) {
   let filtered;
@@ -69,11 +70,11 @@ function filterButtons() {
     filtered = getFilteredGenre("reset");
     addSongCards(filtered);
   });
-  DOMSelectors.alphabeticalButton.addEventListener("click", function (event) {
+  /* DOMSelectors.alphabeticalButton.addEventListener("click", function (event) {
     event.preventDefault;
     filtered = getFilteredABC();
     addSongCards(filtered);
-  });
+  }); */
   DOMSelectors.genreOptionButtons.forEach((genreOption) =>
     genreOption.addEventListener("click", function (event) {
       event.preventDefault;
