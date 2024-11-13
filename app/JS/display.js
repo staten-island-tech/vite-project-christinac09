@@ -37,13 +37,14 @@ function getFilteredGenre(type) {
   } else if (type === "Pop") {
     filtered = songs.filter((song) => song.genre === acceptedTypes[0]);
   } else if (type === "K-pop") {
-    filtered = songs.filter((song) => song.genre === acceptedTypes[1]);
+    filtered = songs.filter((song) => song.genre.includes(acceptedTypes[1]));
   } else if (type === "K-RnB") {
     filtered = songs.filter((song) => song.genre === acceptedTypes[2]);
   } else if (type === "Hip Hop") {
-    filtered = songs.filter((song) => song.genre === acceptedTypes[3]);
+    filtered = songs.filter((song) => song.genre.includes(acceptedTypes[3]));
   } else if (type === "Other") {
     filtered = songs.filter((song) => !acceptedTypes.includes(song.genre));
+    console.log(filtered);
   }
   return filtered;
 }
