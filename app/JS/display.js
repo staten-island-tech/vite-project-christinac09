@@ -21,9 +21,9 @@ function removeAllCards() {
 }
 
 function getFilteredABC() {
-  let filtered;
+  let filtered = songs;
   removeAllCards();
-  filtered = songs.sort((a, b) => {
+  filtered.sort((a, b) => {
     if (a.title < b.title) {
       return -1;
     }

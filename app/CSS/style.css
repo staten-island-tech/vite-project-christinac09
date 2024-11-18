@@ -151,6 +151,7 @@ button:active {
   }
 }
 @media screen and (max-width: 750px){
+  
   .card {
       width: 100%;
   }
@@ -162,8 +163,9 @@ button:active {
   .filters-container
   {
     flex-direction: column;
+    height: fit-content;
   }
   button {
-    width: 50%;
+    width: 40%;
   }
 }
